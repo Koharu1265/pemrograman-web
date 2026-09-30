@@ -1,106 +1,197 @@
 <!DOCTYPE html>
+
 <html>
 <head>
     <title>Daftar Menu Restoran</title>
 
-    <link rel="stylesheet" href="style.css">
+```
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
 
-    <div class="container">
+```
+<div class="container">
 
-        <!-- JUDUL -->
-        <h1>Daftar Menu Restoran Lezat</h1>
+    <!-- JUDUL -->
+    <h1>Daftar Menu Restoran Lezat</h1>
 
-        <!-- NAVIGASI -->
-        <div class="nav">
-            <a href="index.html">Home</a>
-            <a href="profile.html">Profile</a>
-            <a href="aboutus.html">Kenapa</a>
-            <a href="menu.html">Daftar Menu</a>
-        </div>
-
-        <!-- PARAGRAF PENJELASAN -->
-        <p>
-            Selamat datang di Restoran Lezat. Kami menyediakan berbagai
-            macam makanan, minuman, dan dessert dengan harga yang
-            terjangkau. Silakan melihat daftar menu di bawah ini dan
-            ikuti langkah-langkah pemesanan untuk melakukan pemesanan.
-        </p>
-
-
-        <!-- NESTED LIST -->
-        <h2>Kategori Menu</h2>
-
-        <ol>
-            <li>
-                Makanan
-                <ul>
-                    <li>Nasi Goreng Jokowi - Rp20.000</li>
-                    <li>Mie Goreng Jokowi - Rp20.000</li>
-                    <li>Bakso Jokowi - Rp20.000</li>
-                </ul>
-            </li>
-
-            <li>
-                Minuman
-                <ul>
-                    <li>Es Teh Jokowi - Rp5.000</li>
-                    <li>Es Jeruk Jokowi - Rp5.000</li>
-                </ul>
-            </li>
-
-            <li>
-                Dessert
-                <ul>
-                    <li>Es Krim - Rp10.000</li>
-                    <li>Puding Cokelat - Rp12.000</li>
-                    <li>Salad Buah - Rp15.000</li>
-                </ul>
-            </li>
-        </ol>
-
-
-        <!-- ORDERED LIST 5 LANGKAH -->
-        <h2>Langkah-Langkah Pemesanan Makanan</h2>
-
-        <p>
-            Berikut adalah langkah-langkah yang dapat dilakukan pelanggan
-            untuk memesan makanan di Restoran Lezat:
-        </p>
-
-        <ol>
-            <li>Pilih makanan, minuman, atau dessert yang ingin dipesan.</li>
-            <li>Tentukan jumlah makanan atau minuman yang ingin dibeli.</li>
-            <li>Sampaikan pesanan kepada pelayan restoran.</li>
-            <li>Tunggu pesanan disiapkan dan diantar ke meja.</li>
-            <li>Lakukan pembayaran sesuai dengan total harga pesanan.</li>
-        </ol>
-
-
-        <!-- PENUTUP -->
-        <h2>Informasi Pemesanan</h2>
-
-        <p>
-            Pelanggan dapat memilih menu sesuai dengan selera masing-masing.
-            Pastikan untuk memeriksa jumlah dan jenis pesanan sebelum
-            melakukan pembayaran.
-        </p>
-
-
-        <!-- ALAMAT -->
-        <p class="alamat">
-            Alamat: Jl. Merdeka No. 10, Jakarta
-        </p>
-
-
-        <!-- FOOTER -->
-        <p class="footer">
-            &copy; 2026 Restoran Lezat. Semua hak dilindungi.
-        </p>
-
+    <!-- NAVIGASI -->
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="aboutus.html">Kenapa kami?</a>
+        <a href="menu.html">Daftar Menu</a>
     </div>
+
+    <!-- PARAGRAF PENJELASAN -->
+    <p>
+        Selamat datang di Restoran Lezat. Kami menyediakan berbagai
+        macam makanan, minuman, dan dessert dengan harga yang
+        terjangkau. Silakan melihat daftar menu di bawah ini dan
+        ikuti langkah-langkah pemesanan untuk melakukan pemesanan.
+    </p>
+
+
+    <!-- TABEL DAFTAR MENU -->
+    <h2>Daftar Menu Restoran</h2>
+
+    <table class="menu-table">
+
+        <tr>
+            <th>No</th>
+            <th>Nama Menu</th>
+            <th>Kategori</th>
+            <th>Harga</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Nasi Goreng Jokowi</td>
+            <td>Makanan</td>
+            <td class="harga">Rp20.000</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Mie Goreng Jokowi</td>
+            <td>Makanan</td>
+            <td class="harga">Rp20.000</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Bakso Jokowi</td>
+            <td>Makanan</td>
+            <td class="harga">Rp20.000</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Es Teh Jokowi</td>
+            <td>Minuman</td>
+            <td class="harga">Rp5.000</td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Es Jeruk Jokowi</td>
+            <td>Minuman</td>
+            <td class="harga">Rp5.000</td>
+        </tr>
+
+        <tr>
+            <td>6</td>
+            <td>Es Krim</td>
+            <td>Dessert</td>
+            <td class="harga">Rp10.000</td>
+        </tr>
+
+        <tr>
+            <td>7</td>
+            <td>Puding Cokelat</td>
+            <td>Dessert</td>
+            <td class="harga">Rp12.000</td>
+        </tr>
+
+        <tr>
+            <td>8</td>
+            <td>Salad Buah</td>
+            <td>Dessert</td>
+            <td class="harga">Rp15.000</td>
+        </tr>
+
+    </table>
+
+
+    <!-- NESTED LIST -->
+    <h2>Kategori Menu</h2>
+
+    <ol>
+
+        <li>
+            Makanan
+            <ul>
+                <li>Nasi Goreng Jokowi - Rp20.000</li>
+                <li>Mie Goreng Jokowi - Rp20.000</li>
+                <li>Bakso Jokowi - Rp20.000</li>
+            </ul>
+        </li>
+
+        <li>
+            Minuman
+            <ul>
+                <li>Es Teh Jokowi - Rp5.000</li>
+                <li>Es Jeruk Jokowi - Rp5.000</li>
+            </ul>
+        </li>
+
+        <li>
+            Dessert
+            <ul>
+                <li>Es Krim - Rp10.000</li>
+                <li>Puding Cokelat - Rp12.000</li>
+                <li>Salad Buah - Rp15.000</li>
+            </ul>
+        </li>
+
+    </ol>
+
+
+    <!-- ORDERED LIST 5 LANGKAH -->
+    <h2>Langkah-Langkah Pemesanan Makanan</h2>
+
+    <p>
+        Berikut adalah langkah-langkah yang dapat dilakukan pelanggan
+        untuk memesan makanan di Restoran Lezat:
+    </p>
+
+    <ol>
+        <li>Pilih makanan, minuman, atau dessert yang ingin dipesan.</li>
+
+        <li>
+            Tentukan jumlah makanan atau minuman yang ingin dibeli.
+        </li>
+
+        <li>
+            Sampaikan pesanan kepada pelayan restoran.
+        </li>
+
+        <li>
+            Tunggu pesanan disiapkan dan diantar ke meja.
+        </li>
+
+        <li>
+            Lakukan pembayaran sesuai dengan total harga pesanan.
+        </li>
+    </ol>
+
+
+    <!-- INFORMASI PEMESANAN -->
+    <h2>Informasi Pemesanan</h2>
+
+    <p>
+        Pelanggan dapat memilih menu sesuai dengan selera masing-masing.
+        Pastikan untuk memeriksa jumlah dan jenis pesanan sebelum
+        melakukan pembayaran.
+    </p>
+
+
+    <!-- ALAMAT -->
+    <p class="alamat">
+        Alamat: Jl. Merdeka No. 10, Jakarta
+    </p>
+
+
+    <!-- FOOTER -->
+    <p class="footer">
+        &copy; 2026 Restoran Lezat. Semua hak dilindungi.
+    </p>
+
+</div>
+```
 
 </body>
 </html>
