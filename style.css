@@ -141,3 +141,91 @@ p {
     line-height: 1.6;
     color: #444;
 }
+
+/* ============================= */
+/* TABEL */
+/* ============================= */
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+
+table th,
+table td {
+border: 1px solid #ddd;
+padding: 12px;
+text-align: center;
+vertical-align: middle;
+}
+
+table th {
+background-color: #d35400;
+color: white;
+}
+
+table tr:nth-child(even) {
+background-color: #f9f9f9;
+}
+
+table tr:hover {
+background-color: #fff2e8;
+}
+
+/* ============================= */
+/* TABEL MENU */
+/* ============================= */
+
+.menu-table img {
+width: 120px;
+height: 85px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+/* ============================= */
+/* TABEL PROMO */
+/* ============================= */
+
+.promo-table th {
+background-color: #e67e22;
+}
+
+.promo-table td {
+text-align: center;
+}
+
+/* ============================= */
+/* TABEL KEUNGGULAN */
+/* ============================= */
+
+.keunggulan-table td:first-child {
+font-weight: bold;
+color: #d35400;
+}
+
+.keunggulan-table td:nth-child(2) {
+text-align: left;
+}
+
+/* ============================= */
+/* RESPONSIVE TABLE */
+/* ============================= */
+
+@media (max-width: 600px) {
+table {
+    font-size: 14px;
+}
+
+table th,
+table td {
+    padding: 8px;
+}
+
+.menu-table img {
+    width: 80px;
+    height: 60px;
+}
+}
